@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virus Alert!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: white;
+            margin-top: 15%;
+        }
+        .alert {
+            font-size: 3em;
+            font-weight: bold;
+            color: red;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: gray;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #f44336;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert">Virus Alert!</div>
+    <div class="message">Your computer has been infected!<br>Just kidding, it’s a prank! 😂</div>
+    <a href="https://example.com" class="button">Click here to fix it!</a>
+    <div class="footer">Disclaimer: This is a harmless prank and does not cause any harm to your computer.</div>
+</body>
+</html>
